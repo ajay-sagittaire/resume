@@ -1,0 +1,59 @@
+version: '3.1'
+services:
+  go:
+    build:
+      context: ..
+      dockerfile: docker/go/Dockerfile
+    depends_on:
+      - mongo
+    volumes:
+      - "../server:/go/src/app"
+    ports:
+      - '8081:8080'
+    environment:
+      MONGO_GO_HOST: mongo
+      MONGO_GO_USER: root
+      MONGO_GO_PASSWORD: example
+      MONGO_GO_DB: cv
+  # mongo:
+  #   image: mongo
+  #   command: --smallfiles
+  #   volumes: 
+  #     - "mongodbdata:/data/db"
+  #     - "./mongo-seed/scripts:/docker-entrypoint-initdb.d"
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: example
+  #     MONGO_INITDB_DATABASE: cv
+  #   ports:
+  #     - "27017:27017"
+  mongo:
+    build:
+      context: ./mongo-seed/
+      dockerfile: Dockerfile
+    command: --smallfiles
+    volumes: 
+      - "mongodbdata:/data/db"
+      - "./mongo-seed/scripts:/docker-entrypoint-initdb.d"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: cv
+    ports:
+      - "27017:27017"
+  react:
+    build:
+      context: ..
+      dockerfile: docker/react/Dockerfile
+    depends_on:
+      - go
+    volumes:
+      - '../client:/app'
+      - '/app/node_modules'
+    ports:
+      - '3001:3000'
+    environment:
+      - NODE_ENV=development
+      # - CHOKIDAR_USEPOLLING=true
+volumes:
+  mongodbdata:

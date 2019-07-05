@@ -1,0 +1,626 @@
+[
+  {
+    "userid": "mounir.khebbaza-33615314697",
+    "lang": "uk",
+    "basics": {
+      "name": "Mounir KHEBBAZA",
+      "label": "Web Developer and DevOps Enthusiast",
+      "picture": "cv.jpg",
+      "email": "mounir.khebbaza@gmail.com",
+      "phone": "+33615314697",
+      "website": "",
+      "summary": "Graduated from a French engineer school in 2013, my first experiences allowed me to touch to a pretty large variety of technologies, from system administration to web developer. I can handle tasks in production and operation chain of a company’s information system thanks to those experiences. My curiosity pushes me to find out the best way (tools, programming language) to solve a problem. Today, I want to use those multiple skills and my taste for innovation to keep progressing in jobs while developing ambitious tools.",
+      "location": {
+        "address": "888 rue Wellington",
+        "postalcode": "H3C 0N1",
+        "city": "Montreal",
+        "countrycode": "CA",
+        "region": "Quebec"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mounir-khebbaza-0a410860/"
+        },
+        {
+          "network": "GitHub",
+          "url": "https://github.com/starcher26"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "National Bank of Canada",
+        "position": "Web Developer / DevOps",
+        "website": "https://www.bnc.ca/",
+        "startdate": "2018-11-05",
+        "enddate": "present",
+        "summary": "The role of my team is to detect banking fraud. We build a centralized application able to gather information (banking transactions, users' actions, ...) coming from different applications. This tool computes this information and with heuristics (implemented codes) triggers an alert when it detects a fraudulent behaviour.",
+        "highlights": ["Deployment on Openshift Automated", "Improving Fraud Detection", "Banking logs retrieval methods improved", "Improving DB performances", "Introduction to Kafka"]
+      },
+      {
+        "company": "Digital Effervescence",
+        "position": "Web Developer / DevOps",
+        "website": "https://www.bnc.ca/",
+        "startdate": "2017-04-03",
+        "enddate": "2018-10-15",
+        "summary": "Digital Effervescence is a start-up company specialized in digital marketing. Besides developing websites for our customers, I used skills I got from my former job to bring a better structure in our way of coding. I implemented a source versioning tool, a deployment tool, different environments, proposed a naming convention. Moreover, I learnt a lot about digital marketing and marketing automation tools (such as Mautic).",
+        "highlights": ["Building Openshift Platform", "Development processus from scratch", "Direct communication with client", "Digital Marketing", "Startup"]
+      },
+      {
+        "company": "Nalys",
+        "position": "Web Developer / DevOps",
+        "website": "https://www.nalys-group.com/",
+        "startdate": "2017-01-15",
+        "enddate": "2017-03-20",
+        "summary": "I joined a Belgian company in January 2017. This company provides services (websites implementation, consulting, …) to customers. My role was to find and configure tools to better appreciate developing, testing, and production processes. I also developed a tool allowing HR to list all employees’ skills. This tool helps them to find the best match, the best candidate for a project. From this experience, I started to learn CI/CD and Docker technologies.",
+        "highlights": ["First step into DevOps", "Helping developers to begin developments more quickly"]
+      },
+      {
+        "company": "Solutec",
+        "position": "Design and Development Engineer",
+        "website": "https://www.solutec.fr/",
+        "startdate": "2013-10-01",
+        "enddate": "2016-12-31",
+        "summary": "My role was to collect data (CPU and RAM consumption, software installation, licenses, DB instances, …) of every single server, and expose them using APIs. I also participated on building a monitoring platform that consumes those APIs.",
+        "highlights": ["Building an application from scratch", "Architecture", "Infrastructure", "Microservices", "NoSQL"]
+      },
+      {
+        "company": "STMicroelectronics",
+        "position": "IT Developer Internship",
+        "website": "https://www.st.com",
+        "startdate": "2010-09-01",
+        "enddate": "2013-09-31",
+        "summary": "Within a team composed of microelectronic engineer, my role was to make repetitive tasks automatic. This experience was a rewarding experience, my first as an engineer, I consolidate my Linux and scripting skills. But what I liked the most was to mix two different domains: IT and microelectronic (platforms for smartphone).",
+        "highlights": ["First experience within a big company", "Facilitate engineer day to day work", "Microelectronics"]
+      },
+      {
+        "company": "Connect.ie",
+        "position": "IT Developer Internship",
+        "website": "https://www.connect.ie/",
+        "startdate": "2012-06-01",
+        "enddate": "2012-09-10",
+        "summary": "I joined this Irish company in June 2012. My role was to rebuild the second website of this company. The objective of this website is to explain people medical terms (diseases) using synonyms / barbarisms.",
+        "highlights": ["First experience abroad", "Importance of simplification"]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Saint Pierre Sport Football",
+        "position": "Volunteer",
+        "website": "https://spsfootball.footeo.com/",
+        "startdate": "2007-08-01",
+        "enddate": "2017-12-31",
+        "summary": "I played Football/Soccer in this club and once in a while I helped to organize events like parties or tournaments.",
+        "highlights": ["Football", "Soccer", "Community", "Sport"]
+      },
+      {
+        "organization": "Saint Pierre Handball",
+        "position": "Volunteer",
+        "website": "https://saint-pierre-handball-com.jimdofree.com/",
+        "startdate": "2001-09-01",
+        "enddate": "2007-05-31",
+        "summary": "I played Handball in this club and once in a while I helped to organize events like parties or tournaments.",
+        "highlights": ["Handball", "Community", "Sport"]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Udemy:at",
+        "area": "Unity 2D",
+        "studytype": "Training",
+        "startdate": "2019-01-01",
+        "enddate": "present",
+        "courses": [
+          "Unity 2D", "C#", "Laser Defender", 
+          "Tower Defense (Plants vs Zombies like)", "Block Breaker"
+        ]
+      },
+      {
+        "institution": "Udemy:at",
+        "area": "Unreal Engine C++",
+        "studytype": "Training",
+        "startdate": "2018-09-01",
+        "enddate": "present",
+        "courses": [
+          "Unreal Engine", "C++", "Escape room"
+        ]
+      },
+      {
+        "institution": "M2i:suitcase",
+        "area": "Advanced Python course",
+        "studytype": "Training",
+        "startdate": "2015-05-10",
+        "enddate": "2015-05-15",
+        "courses": [
+          "Python", "Django"
+        ]
+      },
+      {
+        "institution": "M2i:suitcase",
+        "area": "Powershell course",
+        "studytype": "Training",
+        "startdate": "2014-09-23",
+        "enddate": "2014-09-28",
+        "courses": [
+          "Powershell", "Scripting", "Windows Server Administration using Powershell"
+        ]
+      },
+      {
+        "institution": "M2i:suitcase",
+        "area": "ITIL v3",
+        "studytype": "Training + Certification",
+        "startdate": "2013-10-03",
+        "enddate": "2013-10-07",
+        "courses": [
+          "ITIL v3", "Certification"
+        ]
+      },
+      {
+        "institution": "CPE Lyon Engineering School:university",
+        "area": "Networking/Telecommunications and Software Development",
+        "studytype": "Master's Degree:university",
+        "startdate": "2010-09-01",
+        "enddate": "2013-09-01",
+        "gpa": "3.33",
+        "courses": [
+          "Networking", "Telecommunication", "Database", 
+          "Web", "Software development", "Scripting", "System & Security administration"
+        ]
+      },
+      {
+        "institution": "IUT Grenoble Joseph Fourier:student",
+        "area": "Networking and telecommunications",
+        "studytype": "Bachelor",
+        "startdate": "2010-09-01",
+        "enddate": "2008-09-01",
+        "gpa": "4.0",
+        "courses": [
+          "Networking", "Telecommunication", "System administration", 
+          "Web", "Software development", "Database"
+        ]
+      }
+    ],
+    "awards": [
+    ],
+    "publications": [
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "70",
+        "keywords": ["HTML", "CSS", "Javascript", "PHP", "Laravel", "Symfony"]
+      },
+      {
+        "name": "Rest API",
+        "level": "65",
+        "keywords": ["Python", "Flask", "PHP", "Laravel", "Symfony", "React", "VueJS", "Microservices"]
+      },
+      {
+        "name": "GraphQL API",
+        "level": "15",
+        "keywords": ["Golang: learning ongoing", "GraphQL: learning ongoing", "Apollo: learning ongoing", "React"]
+      },
+      {
+        "name": "Game Development",
+        "level": "2",
+        "keywords": ["Unity 2D: C#, training ongoing", "Unreal Engine: C++, training ongoing"]
+      },
+      {
+        "name": "Database SQL",
+        "level": "55",
+        "keywords": ["MySQL", "MariaDB", "ProtgreSQL"]
+      },
+      {
+        "name": "Database NoSQL",
+        "level": "15",
+        "keywords": ["MongoDB: Used for Rest and graphQL API", "Redis"]
+      },
+      {
+        "name": "System Administration",
+        "level": "55",
+        "keywords": ["Linux: RedHat, CentOS, Ubuntu, Debian", "Windows: 2003 and 2008 server"]
+      },
+      {
+        "name": "Microservices",
+        "level": "40",
+        "keywords": ["Docker", "Docker-Compose", "Openshift", "Rest", "GraphQL"]
+      },
+      {
+        "name": "Scripting",
+        "level": "60",
+        "keywords": ["Perl", "Bash", "Powershell", "Python"]
+      },
+      {
+        "name": "Queue",
+        "level": "20",
+        "keywords": ["Redis", "Kafka: learning ongoing"]
+      },
+      {
+        "name": "ETL",
+        "level": "25",
+        "keywords": ["Logstash"]
+      },
+      {
+        "name": "Digital Marketing Tool",
+        "level": "45",
+        "keywords": ["Mautic", "Mailchimp", "HubSpot: introduction"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "French",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional working proficiency"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Elementary proficiency"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Sports in competiton:trophy",
+        "keywords": ["Football (Soccer): More than 10 years:soccer", "Handball: 5 years:volleyball ball"]
+      },
+      {
+        "name": "Sports for fun:heartbeat",
+        "keywords": ["Ski: Intermediate:snowflake", "Bike::time", "Hiking::compass", "Swimming::bath"]
+      },
+      {
+        "name": "Video Games:game",
+        "keywords": [
+          "Playing: (MMO)RPGs and platform games are my favourite type of games. Even though I play at a big variety of games.:game", 
+          "Building: I am learning how to do it and I start liking it a lot.:code"
+        ]
+      },
+      {
+        "name": "Comic books:book",
+        "keywords": [
+          "XIII: One of the first comic books I read. The story is unbelievable.:book", 
+          "Asterix: A classic:book",
+          "Kaamelott: 90% of my jokes are coming from this saga (comic books / TV show).:book"
+        ]
+      },
+      {
+        "name": "Movies & TV Shows:tv",
+        "keywords": [
+          "Action:Marvel movies, Star Wars, Lord of the Rings, John Wick, ...:video", 
+          "Thriller::video",
+          "Kaamelott::chess knight",
+          "Breaking Bad::lab",
+          "Peaky Blinders::bar",
+          "Chernobyl::ambulance",
+          "Game Of Thrones::snowflake",
+          "Broadchurch::id card"
+        ]
+      },
+      {
+        "name": "Travel:map",
+        "keywords": [
+          "Canada:Quebec, Ontario, Alberta and British Columbia:ca:flag", "USA:Los Angeles, Seattle:us:flag", "Ireland:Dublin, Connemara, Ring of Kerry:ie:flag", "Spain:Barcelona, Salou:es:flag",
+          "Hungary:Budapest:hu:flag","Germany:Berlin:de:flag","England:London and Cornwall:uk:flag",
+          "Poland:Cracow, Varsaw:pl:flag", "Czech Republic:Prague:cz:flag", "Austria:Vienna:at:flag:flag",
+          "Italy:Torino, Pescara:it:flag", "Greece:Athens, Cyclades Islands:gr:flag", "Portugal:Lisbon, Faro, Almancil, Sagres:pt:flag"
+        ]
+      }
+    ],
+    "references": [
+    ]
+  },
+  {
+    "userid": "mounir.khebbaza-33615314697",
+    "lang": "fr",
+    "basics": {
+      "name": "Mounir KHEBBAZA",
+      "label": "Développeur Web et DevOps Enthusiast",
+      "picture": "cv.jpg",
+      "email": "mounir.khebbaza@gmail.com",
+      "phone": "+33615314697",
+      "website": "",
+      "summary": "Diplômé d’une école d’ingénieur, mes premières expériences professionnelles m’ont permis d’aborder un large panel de technologies, allant de l’administration système au développement web. J’y ai acquis une polyvalence qui me permet d’intervenir sur toute la chaine de production et d’exploitation des systèmes d‘informations. Ma curiosité me pousse à appréhender sans cesse de nouveaux outils. Je souhaite aujourd’hui mettre à profit cette polyvalence et mon gout pour l’innovation et continuer à progresser en développant des produits ambitieux.",
+      "location": {
+        "address": "888 rue Wellington",
+        "postalcode": "H3C 0N1",
+        "city": "Montréal",
+        "countrycode": "CA",
+        "region": "Québec"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mounir-khebbaza-0a410860/"
+        },
+        {
+          "network": "GitHub",
+          "url": "https://github.com/starcher26"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Banque Nationale du Canada",
+        "position": "Développeur Web / DevOps",
+        "website": "https://www.bnc.ca/",
+        "startdate": "2018-11-05",
+        "enddate": "aujourd'hui",
+        "summary": "Le rôle de l'équipe dans laquelle je suis, est de détecter la fraude bancaire. Nous développons une application permettant de regrouper différentes informations bancaires (transactions, changement de mot de passe, ajout d'un bénéficiaire, ...). Avec ces informations, des heuristiques (algorithmes) permettent de lever une alerte lorsqu'un comportement frauduleux a été détecté.",
+        "highlights": ["Refonte des déploiements sur Openshift", "Amélioration de la détection de fraude", "Amélioration des méthodes de récupération des messages", "Performance base de donnéees à la hausse"]
+      },
+      {
+        "company": "Digital Effervescence",
+        "position": "Développeur Web / DevOps",
+        "website": "https://www.bnc.ca/",
+        "startdate": "2017-04-03",
+        "enddate": "2018-10-15",
+        "summary": "Au sein d’une start-up spécialisée dans le digital marketing, j’occupe un poste de développeur web. J’ai pu mettre en avant les compétences que j’avais acquises durant l’expérience précédente. En effet, j’ai mis en place des environnements de développement et une plateforme d’intégration continue afin de mieux maitriser nos mises en production. De plus, j’ai appris des notions dans le digital marketing, à utiliser des outils d’automatisation de marketing.",
+        "highlights": ["Implémentation d'une plateforme Openshift", "Contact Client", "Mettre en place des processus de développement from scratch", "Maketing Digital", "Startup"]
+      },
+      {
+        "company": "Nalys",
+        "position": "Développeur Web / DevOps",
+        "website": "https://www.nalys-group.com/",
+        "startdate": "2017-01-15",
+        "enddate": "2017-03-20",
+        "summary": "Dans cette société de services, j’ai mis en place des environnements de développement et une plateforme d’intégration continue avec les dernières technologies du marché. J’ai également travaillé au développement d’un outil web de recensement des compétences des équipes. Cette expérience m’a permis d’utiliser dans un contexte professionnel des technologies séduisantes.",
+        "highlights": ["Premiers pas devops", "Amélioration processus de développement des projets internes"]
+      },
+      {
+        "company": "Solutec",
+        "position": "Ingénieur études et développements",
+        "website": "https://www.solutec.fr/",
+        "startdate": "2013-10-01",
+        "enddate": "2016-12-31",
+        "summary": "Mon rôle était de collecter des données (consommation CPU et RAM, installation de logiciels, licenses, instances de base de données, …) pour chacun des serveurs du parc infomatique. Ces données étaient ensuite disponible via des APIs. Par la suite, j'ai intégré une équipe qui concevait une plateforme centrale de monitoring pour les applications de l'entreprise. Cette plateforme consommait les APIs que j'ai développé.",
+        "highlights": ["Concevoir une application from scratch", "Architecture", "Infrastructure", "Microservices"]
+      },
+      {
+        "company": "STMicroelectronics",
+        "position": "Stagiaire développeur",
+        "website": "https://www.st.com",
+        "startdate": "2010-09-01",
+        "enddate": "2013-09-31",
+        "summary": "Au sein d’une équipe d’ingénieurs en micro-électronique de ce géant du secteur, j’ai contribué à travers plusieurs projets à l’industrialisation des activités de l’équipe. J’ai réalisé un outil d’extraction / consolidation de données, un système d’optimisation de lancement de tâches pour une plateforme de partage de charge, et un site intranet permettant le contrôle des puces électroniques. En autonomie sur ces projets, du recueil du besoin à la rédaction du manuel utilisateur en passant par le développement et l’exploitation de l’outil, j’ai pu appréhender la totalité du cycle de production d’une solution.",
+        "highlights": ["Première expérience dans une grande entreprise", "Valeurs ajoutées apportées aux ingénieurs", "Microélectronique"]
+      },
+      {
+        "company": "Connect.ie",
+        "position": "Stagiaire développeur",
+        "website": "https://www.connect.ie/",
+        "startdate": "2012-06-01",
+        "enddate": "2012-09-10",
+        "summary": "Je me suis vu confier la refonte d’un site internet de vulgarisation scientifique. Prise en main de l’existant, choix de solution, développement, tests et présentation du résultat final. J’ai découvert la réalisation d’un projet web complet dans un contexte professionnel, et anglophone.",
+        "highlights": ["Première expérience à l'étranger", "Sensibilisation à la vulgarisation"]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Saint Pierre Sport Football",
+        "position": "Bénévol",
+        "website": "https://spsfootball.footeo.com/",
+        "startdate": "2007-08-01",
+        "enddate": "2017-12-31",
+        "summary": "Je jouais au Football/Soccer dans cette équipe et il m'arrivait de temps à d'autres d'aider à l'organisation d'événements du club : des fêtes, des tournois.",
+        "highlights": ["Football", "Soccer", "Communauté", "Sport"]
+      },
+      {
+        "organization": "Saint Pierre Handball",
+        "position": "Bénévol",
+        "website": "https://saint-pierre-handball-com.jimdofree.com/",
+        "startdate": "2001-09-01",
+        "enddate": "2007-05-31",
+        "summary": "Je jouais au Handball dans cette équipe et il m'arrivait de temps à d'autres d'aider à l'organisation d'événements du club : des fêtes, des tournois.",
+        "highlights": ["Handball", "Communauté", "Sport"]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Udemy:at",
+        "area": "Unity 2D",
+        "studytype": "Formation",
+        "startdate": "2019-01-01",
+        "enddate": "aujourd'hui",
+        "courses": [
+          "Unity 2D", "C#", "Laser Defender", 
+          "Tower Defense (Plants vs Zombies like)", "Casse-brique"
+        ]
+      },
+      {
+        "institution": "Udemy:at",
+        "area": "Unreal Engine C++",
+        "studytype": "Formation",
+        "startdate": "2018-09-01",
+        "enddate": "present",
+        "courses": [
+          "Unreal Engine", "C++", "Escape room"
+        ]
+      },
+      {
+        "institution": "M2i:suitcase",
+        "area": "Formation avancée en Python",
+        "studytype": "Formation",
+        "startdate": "2015-05-10",
+        "enddate": "2015-05-15",
+        "courses": [
+          "Python", "Django"
+        ]
+      },
+      {
+        "institution": "M2i:suitcase",
+        "area": "Powershell scripting",
+        "studytype": "Formation",
+        "startdate": "2014-09-23",
+        "enddate": "2014-09-28",
+        "courses": [
+          "Powershell", "Scripting", "Windows Server Administration en utilisant Powershell"
+        ]
+      },
+      {
+        "institution": "M2i:suitcase",
+        "area": "ITIL v3",
+        "studytype": "Formation + Certification",
+        "startdate": "2013-10-03",
+        "enddate": "2013-10-07",
+        "courses": [
+          "ITIL v3", "Certification"
+        ]
+      },
+      {
+        "institution": "École d'ingénieur CPE Lyon:university",
+        "area": "Informatique et Réseaux de communication",
+        "studytype": "Diplôme d'ingénieur",
+        "startdate": "2010-09-01",
+        "enddate": "2013-09-01",
+        "gpa": "3.33",
+        "courses": [
+          "Réseaux", "Télécommunications", "Base de données", 
+          "Web", "Dévelopment logiciels", "Scripting", "Administration système et sécurité"
+        ]
+      },
+      {
+        "institution": "IUT Grenoble Joseph Fourier:university",
+        "area": "Réseaux et Télécommunications",
+        "studytype": "Diplôme universitaire technique",
+        "startdate": "2010-09-01",
+        "enddate": "2008-09-01",
+        "gpa": "4.0",
+        "courses": [
+          "Réseaux", "Télécommunications", "Administration système", 
+          "Web", "Dévelopment logiciels", "Base de données"
+        ]
+      }
+    ],
+    "awards": [
+    ],
+    "publications": [
+    ],
+    "skills": [
+      {
+        "name": "Développement Web",
+        "level": "70",
+        "keywords": ["HTML", "CSS", "Javascript", "PHP", "Laravel", "Symfony"]
+      },
+      {
+        "name": "Rest API",
+        "level": "65",
+        "keywords": ["Python", "Flask", "PHP", "Laravel", "Symfony", "React", "VueJS", "Microservices"]
+      },
+      {
+        "name": "GraphQL API",
+        "level": "15",
+        "keywords": ["Golang: apprentissage en cours", "GraphQL: apprentissage en cours", "Apollo: apprentissage en cours", "React"]
+      },
+      {
+        "name": "Développement de jeux vidéos",
+        "level": "2",
+        "keywords": ["Unity 2D: C#, apprentissage en cours", "Unreal Engine: C++, apprentissage en cours"]
+      },
+      {
+        "name": "Base de données SQL",
+        "level": "55",
+        "keywords": ["MySQL", "MariaDB", "ProtgreSQL"]
+      },
+      {
+        "name": "Base de données NoSQL",
+        "level": "15",
+        "keywords": ["MongoDB: utilisé pour le développement des APIs", "Redis"]
+      },
+      {
+        "name": "Administration système",
+        "level": "55",
+        "keywords": ["Linux: RedHat, CentOS, Ubuntu, Debian", "Windows: 2003 and 2008 server"]
+      },
+      {
+        "name": "Microservices",
+        "level": "40",
+        "keywords": ["Docker", "Docker-Compose", "Openshift", "Rest", "GraphQL"]
+      },
+      {
+        "name": "Scripting",
+        "level": "60",
+        "keywords": ["Perl", "Bash", "Powershell", "Python"]
+      },
+      {
+        "name": "Queue",
+        "level": "20",
+        "keywords": ["Redis", "Kafka: learning ongoing"]
+      },
+      {
+        "name": "ETL",
+        "level": "25",
+        "keywords": ["Logstash"]
+      },
+      {
+        "name": "Digital Marketing Tool",
+        "level": "45",
+        "keywords": ["Mautic", "Mailchimp", "HubSpot: introduction"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Français",
+        "fluency": "Langue maternelle"
+      },
+      {
+        "language": "English",
+        "fluency": "Fonctionnel"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Niveau scolaire"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Sports en compétition:trophy",
+        "keywords": ["Football (Soccer): Plus de 10 ans de pratique:soccer", "Handball: 5 ans:volleyball ball"]
+      },
+      {
+        "name": "Sports en loisir:heartbeat",
+        "keywords": ["Ski: Intermediaire:snowflake", "Vélo::time", "Randonnée::compass", "Natation::bath"]
+      },
+      {
+        "name": "Jeux vidéos:game",
+        "keywords": [
+          "Jeux: Les (MMO)RPGs et les jeux de plateformes sont mes types jeux favoris. Même si, il m'arrive de jouer à pleins de jeux différents.:game", 
+          "Développement: En me formant à ceci, je commence à vraiment aimer ça.:code"
+        ]
+      },
+      {
+        "name": "Bandes dessinées:book",
+        "keywords": [
+          "XIII: Une des premières bandes dessinées que j'ai lu. L'histoire est juste incroyable.:book", 
+          "Asterix: Un classique:book",
+          "Kaamelott: 90% de mon humour provient de cette BD/série.:book"
+        ]
+      },
+      {
+        "name": "Films & Séries:tv",
+        "keywords": [
+          "Action::video", 
+          "Thriller::video",
+          "Kaamelott::chess knight",
+          "Breaking Bad::lab",
+          "Peaky Blinders::bar",
+          "Chernobyl::ambulance",
+          "Game Of Thrones::snowflake",
+          "Broadchurch::id card"
+        ]
+      },
+      {
+        "name": "Voyage",
+        "keywords": [
+          "Canada:Québec, Ontario, Alberta et Colombie britannique:ca:flag", "USA:Los Angeles, Seattle:us:flag", "Irlande:Dublin, Connemara, Ring of Kerry:ie:flag", "Espagne:Barcelone, Salou:es:flag",
+          "Hongrie:Budapest:hu:flag","Allemagne:Berlin:de:flag","Angleterre:Londres, Cornouaille:uk:flag",
+          "Pologne:Cracovie, Varsovie:pl:flag", "République Tchèque:Prague:cz:flag", "Autriche:Vienne:at:flag",
+          "Italie:Turin, Pescara:it:flag", "Grèce:Athènes, Iles des Cyclades:gr:flag", "Portugal:Lisbonne, Faro, Almancil, Sagres:pt:flag"
+        ]
+      }
+    ],
+    "references": [
+    ]
+  }
+]
