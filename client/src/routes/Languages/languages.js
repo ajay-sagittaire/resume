@@ -4,7 +4,6 @@ import SectionList from "../../components/SectionList";
 import { languagesType } from "../../api/resume";
 
 const Languages = ({ languages }) => {
-  console.log(languages);
   return (
     <div>
       {languages.map(l => (
