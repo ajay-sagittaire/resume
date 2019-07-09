@@ -102,18 +102,6 @@ export const profileType = PropTypes.shape({
   url: PropTypes.string
 }).isRequired;
 
-export const basicsType = PropTypes.shape({
-  name: PropTypes.string,
-  label: PropTypes.string,
-  picture: PropTypes.string,
-  email: PropTypes.string,
-  phone: PropTypes.string,
-  website: PropTypes.string,
-  summary: PropTypes.string,
-  location: PropTypes.shape(locationType),
-  profiles: PropTypes.arrayOf(profileType)
-}).isRequired;
-
 export const workType = PropTypes.arrayOf(
   PropTypes.shape({
     company: PropTypes.string,
@@ -197,6 +185,19 @@ export const referencesType = PropTypes.arrayOf(
     reference: PropTypes.string
   })
 ).isRequired;
+
+export const basicsType = PropTypes.shape({
+  name: PropTypes.string,
+  label: PropTypes.string,
+  picture: PropTypes.string,
+  email: PropTypes.string,
+  phone: PropTypes.string,
+  website: PropTypes.string,
+  summary: PropTypes.string,
+  location: PropTypes.shape(locationType),
+  profiles: PropTypes.arrayOf(profileType),
+  skills: skillsType,
+}).isRequired;
 
 export const resumeType = PropTypes.shape({
   basics: basicsType,

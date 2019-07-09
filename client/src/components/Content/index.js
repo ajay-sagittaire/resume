@@ -12,6 +12,7 @@ import Languages from "../../routes/Languages";
 import Interests from "../../routes/Interests";
 import NotFound from "../../routes/NotFound";
 import PropTypes from "prop-types";
+import { resumeType } from "../../api/resume";
 
 import "./index.css";
 

@@ -19,7 +19,7 @@ class Home extends React.Component {
     }
   };
   static propTypes = {
-    basics: PropTypes.shape(basicsType, { skills: skillsType }).isRequired
+    basics: basicsType.isRequired
   };
 
   constructor(props) {

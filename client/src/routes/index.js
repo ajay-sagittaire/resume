@@ -18,12 +18,12 @@ class AppRouter extends React.Component {
 
   constructor(props) {
     super(props);
-    this.picture = this.props.resume.basics.picture;
+    // this.picture = this.props.resume.basics.picture;
   }
   render() {
     return (
       <Router>
-        <Header {...this.props} picture={this.picture} />
+        <Header {...this.props} />
         <Content {...this.props} />
         {/* <Footer lang={this.props.variables.lang} /> */}
       </Router>
