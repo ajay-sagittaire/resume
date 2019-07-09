@@ -11,10 +11,19 @@ import Awards from "../../routes/Awards";
 import Languages from "../../routes/Languages";
 import Interests from "../../routes/Interests";
 import NotFound from "../../routes/NotFound";
+import PropTypes from "prop-types";
 
 import "./index.css";
 
 export default class Content extends Component {
+  static propTypes = {
+    resume: resumeType.isRequired,
+    refreshData: PropTypes.func,
+    variables: PropTypes.shape({
+      userid: PropTypes.string,
+      lang: PropTypes.string
+    }).isRequired
+  };
   constructor(props) {
     super(props);
     this.basicsAndSkills = Object.assign({}, this.props.resume.basics, {

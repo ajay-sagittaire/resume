@@ -1,12 +1,21 @@
 import React from "react";
 import { Dropdown, Flag } from "semantic-ui-react";
 import "./lang.css";
+import PropTypes from "prop-types";
+
 
 const countryOptions = [
   { key: "uk", value: "uk", flag: "uk", text: "English" },
   { key: "fr", value: "fr", flag: "fr", text: "French" }
 ];
 class Lang extends React.Component {
+  static propTypes = {
+    refreshData: PropTypes.func,
+    variables: PropTypes.shape({
+      userid: PropTypes.string,
+      lang: PropTypes.string
+    }).isRequired
+  };
   constructor(props) {
     super(props);
   }

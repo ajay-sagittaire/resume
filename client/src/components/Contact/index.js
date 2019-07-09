@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "semantic-ui-react";
 import ExternalLink from "../ExternalLink";
 import "./index.css";
+import PropTypes from "prop-types";
 
 const Contact = ({ phone, email, website }) => {
   return (
@@ -28,4 +29,16 @@ const Contact = ({ phone, email, website }) => {
     </div>
   );
 };
+Contact.defaultProps = {
+  phone: undefined,
+  email: undefined,
+  website: undefined
+};
+
+Contact.propTypes = {
+  phone: PropTypes.string,
+  email: PropTypes.string,
+  website: PropTypes.string,
+};
+
 export default Contact;

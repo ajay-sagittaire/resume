@@ -1,9 +1,27 @@
 import { Grid, Header, Image } from "semantic-ui-react";
 import Profiles from "../../components/Profiles";
-import Contact from "../../components/Contact"
-import Skills from "../../components/Skills"
+import Contact from "../../components/Contact";
+import Skills from "../../components/Skills";
 import React from "react";
+import { basicsType, skillsType } from "../../api/resume";
+
 class Home extends React.Component {
+  static defaultProps = {
+    basics: {
+      name: undefined,
+      label: undefined,
+      picture: undefined,
+      phone: undefined,
+      website: undefined,
+      location: {},
+      profiles: {},
+      skills: {}
+    }
+  };
+  static propTypes = {
+    basics: PropTypes.shape(basicsType, { skills: skillsType }).isRequired
+  };
+
   constructor(props) {
     super(props);
   }
@@ -29,7 +47,12 @@ class Home extends React.Component {
             <Header color="grey" size="large">
               {this.props.basics.label}
             </Header>
-            <Header textAlign="justified" color="grey" style={{ marginTop: "0px" }} size="small">
+            <Header
+              textAlign="justified"
+              color="grey"
+              style={{ marginTop: "0px" }}
+              size="small"
+            >
               {this.props.basics.summary}
             </Header>
             <Contact

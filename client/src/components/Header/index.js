@@ -3,8 +3,18 @@ import { Menu, Image, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { Menu as MenuTranslation } from "../../translations/menu";
 import Lang from "./lang";
+import PropTypes from "prop-types";
 
 export default class Header extends Component {
+  static propTypes = {
+    resume: resumeType.isRequired,
+    refreshData: PropTypes.func,
+    variables: PropTypes.shape({
+      userid: PropTypes.string,
+      lang: PropTypes.string
+    }).isRequired
+  };
+
   state = {};
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
@@ -100,7 +110,7 @@ export default class Header extends Component {
             : "Download Resume"}
         </Menu.Item>
         <Menu.Item>
-          <Lang {...this.props} />
+          <Lang variables={this.props.variables} refetchData={this.props.refetchData} />
         </Menu.Item>
       </Menu>
     );
