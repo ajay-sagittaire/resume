@@ -1,15 +1,4 @@
 export const Menu = {
-//   uk: {
-//     work: "Work",
-//     education: "Education",
-//     volunteer: "Volunteer",
-//     publications: "Publication",
-//     references: "Work",
-//     awards: "Education",
-//     languages: "Work",
-//     interests: "Education",
-//     download: "Download resume"
-//   },
   fr: {
     work: "Expériences",
     education: "Parcours et formation",
@@ -22,3 +11,13 @@ export const Menu = {
     download: "Télécharger le CV"
   }
 };
+export const LangOptions = {
+  uk: {
+    uk: "English",
+    fr: "French",
+  },
+  fr: {
+    uk: "Anglais",
+    fr: "Français",
+  }
+}

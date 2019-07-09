@@ -2,7 +2,7 @@ import React from "react";
 import { Dropdown, Flag } from "semantic-ui-react";
 import "./lang.css";
 import PropTypes from "prop-types";
-
+import { LangOptions } from "../../translations/menu";
 
 const countryOptions = [
   { key: "uk", value: "uk", flag: "uk", text: "English" },
@@ -40,7 +40,10 @@ class Lang extends React.Component {
               name={option.value}
               onClick={this.changeLanguage}
             >
-              <Flag name={option.key} /> {option.text}
+              <Flag name={option.key} />
+              {LangOptions[this.props.variables.lang][option.key]
+                ? LangOptions[this.props.variables.lang][option.key]
+                : option.text}
             </Dropdown.Item>
           ))}
         </Dropdown.Menu>
