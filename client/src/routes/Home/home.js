@@ -15,11 +15,12 @@ class Home extends React.Component {
       website: undefined,
       location: {},
       profiles: {},
-      skills: {}
-    }
+    },
+    skills: {},
   };
   static propTypes = {
-    basics: basicsType.isRequired
+    basics: basicsType,
+    skills: skillsType
   };
 
   constructor(props) {
@@ -62,7 +63,7 @@ class Home extends React.Component {
             />
           </Grid.Column>
         </Grid.Row>
-        <Skills skills={this.props.basics.skills} />
+        <Skills skills={this.props.skills} />
       </Grid>
     );
   }

@@ -27,9 +27,6 @@ export default class Content extends Component {
   };
   constructor(props) {
     super(props);
-    this.basicsAndSkills = Object.assign({}, this.props.resume.basics, {
-      skills: this.props.resume.skills
-    });
   }
   render() {
     return (
@@ -38,7 +35,7 @@ export default class Content extends Component {
           <Route
             exact
             path="/"
-            render={() => <Home basics={this.basicsAndSkills} />}
+            render={() => <Home basics={this.props.resume.basics} skills={this.props.resume.skills} />}
           />
           <Route
             exact

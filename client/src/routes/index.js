@@ -18,7 +18,6 @@ class AppRouter extends React.Component {
 
   constructor(props) {
     super(props);
-    // this.picture = this.props.resume.basics.picture;
   }
   render() {
     return (
