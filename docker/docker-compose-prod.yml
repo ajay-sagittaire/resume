@@ -33,6 +33,8 @@ services:
     build:
       context: ..
       dockerfile: docker/react/Dockerfile-prod
+      args:
+        - "REACT_APP_GO_SERVER=http://localhost:8081"
     depends_on:
       - go
     volumes:
@@ -41,7 +43,6 @@ services:
     ports:
       - '80:80'
     environment:
-      - NODE_ENV=development
-      # - CHOKIDAR_USEPOLLING=true
+      NODE_ENV: production
 volumes:
   mongodbdata:

@@ -8,7 +8,7 @@ import { query, variables } from "./api/resume";
 import 'semantic-ui-css/semantic.min.css'
 
 const client = new ApolloClient({
-  uri: "http://localhost:8081/graphql"
+  uri: process.env.REACT_APP_GO_SERVER + "/graphql"
 });
 
 ReactDOM.render(
